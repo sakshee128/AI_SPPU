@@ -115,3 +115,44 @@ def main():
 
 if __name__ == '__main__':
     main()
+    
+    
+    #output:
+    Enter the start state:(Enter -1 for empty):
+1
+2
+3
+-1
+4
+6
+7
+5
+8
+Enter the goal state:(Enter -1 for empty):
+1
+2
+3
+4
+5
+6
+7
+8
+-1
+
+1 2 3
+_ 4 6
+7 5 8
+
+1 2 3
+4 _ 6
+7 5 8
+
+1 2 3
+4 5 6
+7 _ 8
+
+1 2 3
+4 5 6
+7 8 _
+Solved in 3 moves
+Solved in 3 moves
